@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Two_Tests" duration-ms="21222" started-at="2018-11-13T06:26:27Z" finished-at="2018-11-13T06:26:49Z">
+    <groups>
+    </groups>
+    <test name="RestAPI_Selenium" duration-ms="21222" started-at="2018-11-13T06:26:27Z" finished-at="2018-11-13T06:26:49Z">
+      <class name="Basic_Maven_Testing.facebook_login_Test">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Basic_Maven_Testing.facebook_login_Test@5ec0a365]" name="setup" is-config="true" duration-ms="15304" started-at="2018-11-13T06:26:27Z" finished-at="2018-11-13T06:26:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Invalid_Login()[pri:0, instance:Basic_Maven_Testing.facebook_login_Test@5ec0a365]" name="Invalid_Login" duration-ms="1648" started-at="2018-11-13T06:26:47Z" finished-at="2018-11-13T06:26:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invalid_Login -->
+      </class> <!-- Basic_Maven_Testing.facebook_login_Test -->
+      <class name="Basic_Maven_Testing.addPlacEdelete">
+        <test-method status="PASS" signature="addplace()[pri:0, instance:Basic_Maven_Testing.addPlacEdelete@4fe3c938]" name="addplace" duration-ms="4191" started-at="2018-11-13T06:26:43Z" finished-at="2018-11-13T06:26:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addplace -->
+      </class> <!-- Basic_Maven_Testing.addPlacEdelete -->
+    </test> <!-- RestAPI_Selenium -->
+  </suite> <!-- Two_Tests -->
+</testng-results>

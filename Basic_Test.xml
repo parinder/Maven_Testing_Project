@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Two_Tests">
+  <test thread-count="5" name="RestAPI_Selenium">
+    <classes>
+      <class name="Basic_Maven_Testing.addPlacEdelete"/>
+      <class name="Basic_Maven_Testing.facebook_login_Test"/>
+    </classes>
+  </test> <!-- RestAPI_Selenium -->
+</suite> <!-- Two_Tests -->
